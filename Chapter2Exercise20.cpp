@@ -17,7 +17,11 @@ using namespace std;
 
 int main()
 {
-    double area = 6 * 100 * 2;
+    double area;
+
+    cout << "Enter the area to be painted (in square feet): ";
+    cin >> area;
+    
     int gallons = ceil(area / 340);
 
     cout << "Gallons of paint needed: " << gallons << endl;
